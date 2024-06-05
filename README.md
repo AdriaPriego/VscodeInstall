@@ -1,18 +1,17 @@
 # VscodeInstall
-How install vscode in 42 barcelona
+Cómo instalar VS Code en 42 Barcelona
 #
-Primero de todo ves a [VS Code download](https://code.visualstudio.com/Download) y descarga la version x64 en formato tar.gz para linux.
-Una vez echo eso ves a descargas y descomprime la carpeta depues sigue estos pasos desde la terminal.
+Primero de todo, ve a VS Code download y descarga la versión x64 en formato tar.gz para Linux. Una vez hecho eso, ve a Descargas y descomprime la carpeta. Después, sigue estos pasos desde la terminal.
 
 ```bash
 mkdir -p ~/opt/vscode
 ```
-El siguiente comando la direccion es de ejemplo(sola la primera la segundo debe de ser esa) si no has cambiado nada debe de ser bastante similar a esa ruta.
+El siguiente comando es un ejemplo (solo la primera línea, la segunda debe ser esa). Si no has cambiado nada, debería ser bastante similar a esa ruta.
 ```bash
 mv ~/Downloads/code-stable-x64-1715058993/VSCode-linux-x64/* ~/opt/vscode
 ```
-## Code .
-El siguiente paso es para configurar el visual para poder usar "code ." si no lo quieres saltate el paso.
+## Code . (Opcional)
+El siguiente paso es para configurar Visual Studio Code para poder usar "code .". Si no lo quieres, sáltate este paso.
 ```bash
 vim ~/.zshrc
 ```
@@ -23,15 +22,15 @@ code() {
 }
 ```
 > [!CAUTION]
-> Si tenias una regla de code previamente y haces source .zshrc puede que te entre en un bucle infinito por eso lo suyo sera reiniciar la terminal
+> Si tenías una regla de code previamente y haces source .zshrc, puede que entres en un bucle infinito. Por eso, lo mejor será reiniciar la terminal.
 
-Con esto echo tenemos el code configurado para que funcione correctamente en el caso de que sea un fanatico del entorno grafico a continuacion un paso a paso de como configurarlo..
+Con esto hecho, tenemos code configurado para que funcione correctamente. Si eres un fanático del entorno gráfico, a continuación se explica cómo configurarlo.
 ## Visual link Escritorio
 ```bash
 vim ~/.local/share/applications/vscode.desktop
 ```
 > [!CAUTION]
-> Pondremos dentro importante sustituir $HOME con vuestro /home/user42 es importante para este documento si no hacies esto no funcionara nada....
+> Es importante sustituir $HOME con tu /home/user42. Es crucial para este documento. Si no haces esto, no funcionará nada.
 ```bash
 [Desktop Entry]
 Name=Visual Studio Code
@@ -48,4 +47,4 @@ chmod +x ~/.local/share/applications/vscode.desktop
 cp ~/.local/share/applications/vscode.desktop ~/Desktop
 ```
 > [!IMPORTANT]
-> Con esto echo tendremos que dar click derecho encima del fichero que acabamos de copiar en el escritorio y darle a Allow Launching con eso echo ya  lo tendremos funcional en el escritorio si queremos tenerlo en la barra solo tendremos que abrirlo y desde la misma barra click derecho Add to Favorites 
+> Con esto hecho, tendremos que hacer clic derecho sobre el archivo que acabamos de copiar en el escritorio y seleccionar "Allow Launching". Con eso hecho, ya lo tendremos funcional en el escritorio. Si queremos tenerlo en la barra, solo tendremos que abrirlo y desde la misma barra hacer clic derecho y seleccionar "Add to Favorites".
