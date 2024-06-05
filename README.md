@@ -29,14 +29,15 @@ Con esto hecho, tenemos code configurado para que funcione correctamente. Si ere
 ```bash
 vim ~/.local/share/applications/vscode.desktop
 ```
+Despues escribe lo siguiente en el fichero:
 > [!CAUTION]
-> Es importante sustituir $HOME con tu /home/user42. Es crucial para este documento. Si no haces esto, no funcionará nada.
+> Es importante sustituir NOFUNCIONARASINOLOPONESBIEN con tu /home/user42. Es crucial para este documento. Si no haces esto, no funcionará nada.
 ```bash
 [Desktop Entry]
 Name=Visual Studio Code
 Comment=Code Editing. Redefined.
-Exec=$HOME/opt/vscode/code --no-sandbox %Fi
-Icon=$HOME/opt/vscode/resources/app/resources/linux/code.png
+Exec=NOFUNCIONARASINOLOPONESBIEN/opt/vscode/code --no-sandbox %Fi
+Icon=NOFUNCIONARASINOLOPONESBIEN/opt/vscode/resources/app/resources/linux/code.png
 Type=Application
 Terminal=false
 Categories=Development;IDE;
