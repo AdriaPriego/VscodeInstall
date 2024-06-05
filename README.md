@@ -22,8 +22,8 @@ code() {
     nohup ~/opt/vscode/code "$@" > /dev/null 2>&1 &
 }
 ```
-[!CAUTION]
-Si tenias una regla de code previamente y haces source .zshrc puede que te entre en un bucle infinito por eso lo suyo sera reiniciar la terminal
+> [!CAUTION]
+> Si tenias una regla de code previamente y haces source .zshrc puede que te entre en un bucle infinito por eso lo suyo sera reiniciar la terminal
 
 Con esto echo tenemos el code configurado para que funcione correctamente en el caso de que sea un fanatico del entorno grafico a continuacion un paso a paso de como configurarlo..
 
