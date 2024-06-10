@@ -1,7 +1,6 @@
 # VscodeInstall
 Cómo instalar VS Code en 42 Barcelona
 #
-Teneis un script que hace esto mismo ahora bien no aseguro que funcione perfecto por lo tanto UP2YOU usarlo (Avisad en el caso de encontrar algun error apriego- pls).
 
 Primero de todo, ve a [VS Code download](https://code.visualstudio.com/Download#) y descarga la versión x64 en formato tar.gz para Linux. Una vez hecho eso, ve a Descargas y descomprime la carpeta. Después, sigue estos pasos desde la terminal.
 
@@ -51,3 +50,5 @@ cp ~/.local/share/applications/vscode.desktop ~/Desktop
 ```
 > [!IMPORTANT]
 > Con esto hecho, tendremos que hacer clic derecho sobre el archivo que acabamos de copiar en el escritorio y seleccionar "Allow Launching". Con eso hecho, ya lo tendremos funcional en el escritorio. Si queremos tenerlo en la barra, solo tendremos que abrirlo y desde la misma barra hacer clic derecho y seleccionar "Add to Favorites".
+
+Teneis un script que hace esto mismo ahora bien no aseguro que funcione perfecto por lo tanto UP2YOU usarlo (Avisad en el caso de encontrar algun error apriego- pls). Y el ultimo paso es 100% obligatorio con script o sin el.
