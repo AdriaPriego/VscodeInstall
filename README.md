@@ -37,7 +37,7 @@ Despues escribe lo siguiente en el fichero:
 [Desktop Entry]
 Name=Visual Studio Code
 Comment=Code Editing. Redefined.
-Exec=NOFUNCIONARASINOLOPONESBIEN/opt/vscode/code --no-sandbox %Fi
+Exec=NOFUNCIONARASINOLOPONESBIEN/opt/vscode/code --no-sandbox %F
 Icon=NOFUNCIONARASINOLOPONESBIEN/opt/vscode/resources/app/resources/linux/code.png
 Type=Application
 Terminal=false
