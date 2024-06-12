@@ -34,7 +34,7 @@ echo "code() {
 echo "[Desktop Entry]
 Name=Visual Studio Code
 Comment=Code Editing. Redefined.
-Exec=$HOME/opt/vscode/code --no-sandbox %Fi
+Exec=$HOME/opt/vscode/code --no-sandbox %F
 Icon=$HOME/opt/vscode/resources/app/resources/linux/code.png
 Type=Application
 Terminal=false
