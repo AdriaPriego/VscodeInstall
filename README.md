@@ -1,6 +1,8 @@
 # VscodeInstall
 Cómo instalar VS Code en 42 Barcelona
 #
+> [!IMPORTANT]
+> Te recomiendo usar zed que al final del dia es visual un poco diferente y puedes sin mas usar curl para instalarlo. [Zed download](https://zed.dev/download)
 
 Primero de todo, ve a [VS Code download](https://code.visualstudio.com/Download#) y descarga la versión x64 en formato tar.gz para Linux. Una vez hecho eso, ve a Descargas y descomprime la carpeta. Después, sigue estos pasos desde la terminal.
 
